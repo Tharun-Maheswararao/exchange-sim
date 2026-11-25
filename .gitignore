@@ -1,0 +1,26 @@
+# Build output
+build/
+out/
+.gradle/
+.kotlin/
+*.class
+
+# IDEs and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Property-test database
+.jqwik-database
+
+# Market data files (large, licensed separately)
+data/
+*.itch
+*.itch.gz
+
+# Secrets
+.env
+*.pem
+terraform.tfstate*
+.terraform/

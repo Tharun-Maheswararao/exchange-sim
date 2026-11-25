@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s
+
+# Service scrape targets are added as services land (Week 3 onward).
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ["localhost:9090"]
